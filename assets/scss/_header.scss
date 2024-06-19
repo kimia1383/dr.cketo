@@ -1,0 +1,138 @@
+.nav-green{
+    font-size: 10px !important;
+    background-color:$main-color !important;
+    color: white !important;
+    border-radius: $main-radius;
+    margin-right: 55px;
+    padding: 5px;
+    text-align: center;
+    padding-left: 40px;
+}
+.green-form{
+    background-color: #A5BF8A;
+    border-radius: $main-radius;
+    padding: 5px;
+    display: flex;
+    align-items:stretch;
+    display: inline-block !important;
+    position: relative;
+    right: 30px;
+    
+}
+input{
+    background-color:rgba(255, 255, 255, 0.2) !important;
+    font-size: 10px !important;
+    width: 316px !important;
+    display: inline !important;
+   
+}
+.search-bg{
+    background: rgba(255, 255, 255, 0.8);
+    padding:6px;
+    border-radius: 5px;
+    display: inline-block !important;
+    position: relative;
+    top: 3px;
+}
+.secend-nav{
+    display: flex;
+    position: relative;
+    top:-35px;
+}
+.first-nav{
+    display: flex;
+   
+    background-color:#58753A; /*linear-gradient(180deg, #58753A 0%, #415A28 100%);*/
+    border-radius: $main-radius;
+    margin: 10px;
+    padding: 10px;
+ .right-sec{
+    h1{
+        color: $text-color;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    p{
+        font-size: 12px;
+        color:#FFE600;
+        font-weight: 800;
+    }
+ }
+.left-sec{
+     color: $text-color;
+     display: flex;
+     justify-content: flex-end;
+     span{
+        background: rgba(255, 255, 255, 0.4);
+        padding: 5px;
+        border-radius:$main-radius 0 0 $main-radius;
+        margin-top: 8px;
+        margin-left: 8px;
+        font-size: 10px;
+    
+     }
+     i{
+        font-size: 20px;
+        position: relative;
+        top:5px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius:0 $main-radius $main-radius 0;
+        padding: 2.8px;
+    }
+ }
+    
+}
+.row{
+    width:100% !important;
+}
+
+@media(max-width: 380px) {
+    .left-sec{
+     
+        span{
+            visibility: hidden;
+            
+        }
+        i{
+            border-radius:50% !important;
+        }
+    }
+    
+}
+.header{
+    background-color: rgb(172, 73, 73);
+    color: $text-color;
+    margin-top: -20px;
+    text-align: center;
+    border-radius: $main-radius;
+    margin-left:10px;
+    margin-right:10px;
+    .p-sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+         
+        h2{
+            font-weight: 800;
+            
+        }
+        p{
+            font-size: 13px;
+            
+        }
+        .btn{
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px;
+            border-radius: $main-radius;
+            color: $text-color;
+        }
+    }
+}
+
+
+a{
+    color: $text-color;
+    text-decoration: none;
+}
